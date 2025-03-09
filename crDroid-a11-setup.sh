@@ -12,6 +12,10 @@ git clone --depth=1 https://github.com/dblenk-project/kernel_xiaomi_fog_header.g
 git clone --depth=1 https://github.com/develux44/vendor_xiaomi_fog-11.git vendor/xiaomi/fog
 # hardware/xiaomi
 git clone --depth=1 -b 11.0 https://github.com/crdroidandroid/android_hardware_xiaomi.git hardware/xiaomi
+# Signed build
+wget https://raw.githubusercontent.com/306bobby-android/crDroid-build-signed-script/main/create-signed-env.sh
+chmod +x create-signed-env.sh
+./create-signed-env.sh
 # envsetup for build system
 . build/envsetup.sh
 # "user" build 
