@@ -8,8 +8,7 @@ git clone https://github.com/Xiaomi-SM6225-fog-development/android_device_xiaomi
 # Kernel headers for prebuilt MIUI kernel
 git clone --depth=1 https://github.com/dblenk-project/kernel_xiaomi_fog_header.git kernel/xiaomi/fog
 # Vendor tree 
-# TODO: Move vendor tree to Xiaomi-SM6225-fog-development
-git clone --depth=1 https://github.com/develux44/vendor_xiaomi_fog-11.git vendor/xiaomi/fog
+git clone --depth=1 https://github.com/Xiaomi-SM6225-fog-development/proprietary_vendor_xiaomi_fog-11.git vendor/xiaomi/fog
 # hardware/xiaomi
 git clone --depth=1 -b 11.0 https://github.com/crdroidandroid/android_hardware_xiaomi.git hardware/xiaomi
 # Signed build
