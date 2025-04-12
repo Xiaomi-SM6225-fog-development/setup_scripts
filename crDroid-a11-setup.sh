@@ -2,7 +2,7 @@
 # Init ROM source with --depth=1 to save disk space and internet data
 repo init -u https://github.com/crdroid-security/android.git -b 11.0 --git-lfs --depth=1
 # Sync ROM source
-repo sync
+repo sync -j$(nproc --all)
 # Fix webview build error 
 rm -rf external/chromium-webview/prebuilt/*
 rm -rf .repo/projects/external/chromium-webview/prebuilt/*.git
